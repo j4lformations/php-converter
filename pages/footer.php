@@ -11,7 +11,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-<script type="application/javascript" defer>
+<script type="application/javascript">
     $(document).ready(function () {
         $('button[type="reset"]').click(function () {
             $('#message').fadeOut(1000);

@@ -53,11 +53,11 @@ require_once 'pages/header.php';
             </div>
             <div id="message">
                 <?php
-                    if (!empty($celsius) && is_numeric($celsius)) {
-                        echo "<div id='resultat'>$celsius °C = $farhenheit °F</div>";
-                    } elseif (!empty($celsius) && !is_numeric($celsius)) {
-                        echo "<div id='erreur'>Attention à votre saisie, un nombre est attendu</div>";
-                    }
+                if (!empty($celsius) && is_numeric($celsius)) {
+                    echo "<div id='resultat'>$celsius °C = $farhenheit °F</div>";
+                } elseif (!empty($celsius) && !is_numeric($celsius)) {
+                    echo "<div id='erreur'>Attention à votre saisie, un nombre est attendu</div>";
+                }
                 ?>
             </div>
         </main>
